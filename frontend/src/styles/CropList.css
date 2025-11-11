@@ -1,0 +1,149 @@
+.crop-list h2 {
+  color: #333;
+  font-size: 22px;
+}
+
+.crop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.btn-add {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 10px 20px;
+}
+
+.btn-add:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.crop-form {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 2px solid #e9ecef;
+}
+
+.crop-form h3 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-submit {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  flex: 1;
+}
+
+.btn-cancel {
+  background: #6c757d;
+  color: white;
+  flex: 1;
+}
+
+.crops-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.crop-card {
+  background: white;
+  border: 2px solid #e9ecef;
+  border-radius: 12px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.crop-card:hover {
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+  transform: translateY(-2px);
+}
+
+.crop-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.crop-card h3 {
+  color: #333;
+  font-size: 20px;
+  margin: 0;
+}
+
+.crop-status {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+}
+
+.crop-variety {
+  color: #666;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.crop-details {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.crop-details p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.crop-notes {
+  color: #666;
+  font-size: 13px;
+  margin: 12px 0;
+  line-height: 1.5;
+}
+
+.crop-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-edit {
+  background: #0d6efd;
+  color: white;
+  flex: 1;
+}
+
+.btn-delete {
+  background: #dc3545;
+  color: white;
+  flex: 1;
+}
+
+.btn-edit:hover {
+  background: #0b5ed7;
+}
+
+.btn-delete:hover {
+  background: #bb2d3b;
+}
